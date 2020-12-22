@@ -1,1 +1,3 @@
-# air-quality-index-w-deployment
+Hello all,
+
+In this project I have tried to collect the air quality index data from the website: http://en.tutiempo.net. Then the collected data is then stored in CSV files. After preprocessing, the final data is under Data/Real-Data. I have then tried to train some machine learning models such as Linear regression, ridge/lasso regression. I had also trained decision trees but is not included in the repository due to size constraints. And finally I got the best results using the random forest regressor. All these ML techniques are tuned as well using the hyperparameter tuning techniques such as grid search/random search. I then trained a neural network as well to compare the ML approach with that of deep learning.
